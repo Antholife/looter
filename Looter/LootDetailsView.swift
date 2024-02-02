@@ -29,7 +29,7 @@ struct LootDetailsView: View {
                 VStack(alignment: .leading) {
                     HStack {
                         if let cover = item.game.coverName {
-                            
+                            Image(cover)
                         } else {
                             VStack {
                                 Image(systemName: "rectangle.slash").padding(.horizontal, 8)
